@@ -10,7 +10,7 @@ public class DisplayUserInput {
 
            System.out.println("Enter the integer input: ");
 
-           input = sc.nextInt();  // getting/reading an integer input from the user and storing in the variable 'input'
+           input = sc.nextInt();  // reading an integer input from the user and storing in the variable 'input'
 
            System.out.println("The input entered by the user is : " +input);
 
