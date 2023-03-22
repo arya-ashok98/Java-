@@ -15,29 +15,29 @@ public class VowelOrConsonant {
    		case 'a': 
 			
 			System.out.println("\nThe given alphabet "+alphabet+" is is a vowel");
-                  break;
+                  	break;
 
 		case 'e':
 
 			System.out.println("\nThe given alphabet "+alphabet+" is is a vowel");
-                  break;
+                  	break;
 
 		case 'i':
 
 			System.out.println("\nThe given alphabet "+alphabet+" is is a vowel");
-                  break;
+                  	break;
 
 		case 'o':
 
 			System.out.println("\nThe given alphabet "+alphabet+" is is a vowel");
-                  break;
+                  	break;
 
 		case 'u':
 
 			System.out.println("\nThe given alphabet "+alphabet+" is is a vowel");
-                  break;
+                  	break;
 
-            default:
+            	default:
 
 			System.out.println("\nThe given alphabet "+alphabet+" is a consonant");
 
