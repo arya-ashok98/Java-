@@ -4,9 +4,9 @@ public class LargestAmongThreeNumbers {
 
      public static void main(String args[]) {
 
-            int firstNum, secondNum, thirdNum;
+                int firstNum, secondNum, thirdNum;
 
-		Scanner input = new Scanner(System.in);
+	        Scanner input = new Scanner(System.in);
 
 		System.out.println("\nEnter the first number: ");
 
@@ -18,33 +18,26 @@ public class LargestAmongThreeNumbers {
 
 		System.out.println("\nEnter the third number: ");
 
-            thirdNum = input.nextInt();
+                thirdNum = input.nextInt();
 
-            if (firstNum > secondNum && firstNum > thirdNum)
+                if (firstNum > secondNum && firstNum > thirdNum) {
+		    
+		    System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+firstNum);
+                }
 
-               {
-
-			System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+firstNum);
-
-               }
-
-		else if (secondNum > thirdNum)
-
-               {
+	        else if (secondNum > thirdNum) {
 			
-			System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+secondNum);
+	            System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+secondNum);
 
-		   }
+                }
 
-		else 
- 
-		   {
+		else {
+			
+		    System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+thirdNum);
 
-			System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+thirdNum);
+		}
 
-		   }
-
-      }
+     }
 
 }
 
