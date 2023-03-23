@@ -11,8 +11,7 @@ public class IntegerSum {
            return result;
 
         }
-
-         
+    
 	public static void main(String args[]) {
 
             int firstNumber, secondNumber;
@@ -32,5 +31,6 @@ public class IntegerSum {
             obj.sum(firstNumber, secondNumber);            
          
         }
+	
 }
     
