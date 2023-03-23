@@ -2,31 +2,31 @@ import java.util.Scanner;
 
 public class SwapNumbersWithTemp {
 
-    public static void main(String args[]) {
+      public static void main(String args[]) {
 
-        int temp = 0, numberOne, numberTwo;
+         int temp = 0, numberOne, numberTwo;
 
-        Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
 
-        System.out.println("\nEnter the first number: ");
+         System.out.println("\nEnter the first number: ");
 
-        numberOne = sc.nextInt();
+         numberOne = sc.nextInt();
 
-	  System.out.println("\nEnter the second number: ");
+	 System.out.println("\nEnter the second number: ");
 
-        numberTwo = sc.nextInt();
+         numberTwo = sc.nextInt();
 
-        System.out.println("\nThe value of NumberOne and NumberTwo before swapping is: "+numberOne+" and "+numberTwo);
+         System.out.println("\nThe value of NumberOne and NumberTwo before swapping is: "+numberOne+" and "+numberTwo);
 
-        temp = numberOne;
+         temp = numberOne;
 
-        numberOne = numberTwo;
+         numberOne = numberTwo;
 
-        numberTwo = temp;
+         numberTwo = temp;
 
-        System.out.println("\nThe value of NumberOne and NumberTwo after swapping is: "+numberOne+" and "+numberTwo);
+         System.out.println("\nThe value of NumberOne and NumberTwo after swapping is: "+numberOne+" and "+numberTwo);
 
-    }
+      }
 
 }
 
