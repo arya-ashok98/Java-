@@ -1,3 +1,5 @@
+// Using a user-defined function
+
 import java.util.Scanner;
 
 public class IntegerSum {
