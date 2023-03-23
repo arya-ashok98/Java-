@@ -22,18 +22,18 @@ public class LargestAmongThreeNumbers {
 
                 if (firstNum > secondNum && firstNum > thirdNum) {
 		    
-		    System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+firstNum);
+		    System.out.println("\nThe largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+firstNum);
                 }
 
 	        else if (secondNum > thirdNum) {
 			
-	            System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+secondNum);
+	            System.out.println("\nThe largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+secondNum);
 
                 }
 
 		else {
 			
-		    System.out.println("The largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+thirdNum);
+		    System.out.println("\nThe largest among the numbers "+firstNum+","+secondNum+","+thirdNum+" is: "+thirdNum);
 
 		}
 
