@@ -13,27 +13,24 @@ public class IntegerSum {
         }
 
          
-	   public static void main(String args[]) {
+	public static void main(String args[]) {
 
             int firstNumber, secondNumber;
 
-        	Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
 
-        	System.out.println("\nEnter the first operand: ");
+            System.out.println("\nEnter the first operand: ");
 
-        	firstNumber = sc.nextInt();
+            firstNumber = sc.nextInt();
 
-        	System.out.println("\nEnter the second operand: ");
+            System.out.println("\nEnter the second operand: ");
 
-        	secondNumber = sc.nextInt();
+            secondNumber = sc.nextInt();
 
-         
             IntegerSum obj = new IntegerSum();
 
             obj.sum(firstNumber, secondNumber);            
          
-         }
-
+        }
 }
-
-         
+    
