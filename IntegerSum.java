@@ -6,7 +6,7 @@ public class IntegerSum {
 
            int result = firstNumber + secondNumber;
 
-           System.out.println("The sum of numbers "+firstNumber+" and "+secondNumber+" is: "+result);
+           System.out.println("\nThe sum of numbers "+firstNumber+" and "+secondNumber+" is: "+result);
 
            return result;
 
@@ -15,15 +15,15 @@ public class IntegerSum {
          
 	   public static void main(String args[]) {
 
-            int firstNumber, secondNumber, result;
+            int firstNumber, secondNumber;
 
         	Scanner sc = new Scanner(System.in);
 
-        	System.out.println("Enter the first operand: ");
+        	System.out.println("\nEnter the first operand: ");
 
         	firstNumber = sc.nextInt();
 
-        	System.out.println("Enter the second operand: ");
+        	System.out.println("\nEnter the second operand: ");
 
         	secondNumber = sc.nextInt();
 
