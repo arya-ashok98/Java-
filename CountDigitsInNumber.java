@@ -14,7 +14,7 @@ public class CountDigitsInNumber {
 
          while(number > 0) {
 
-		m = number % 10;
+	    m = number % 10;
 
             number = number / 10;
 
@@ -22,7 +22,7 @@ public class CountDigitsInNumber {
 
          }
 	    
-	   System.out.println("\nThe number is a "+count+" digit number");
+	 System.out.println("\nThe number is a "+count+" digit number");
 
      }  
 
