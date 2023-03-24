@@ -16,7 +16,7 @@ public class Fibonocci {
 
         System.out.println("\n"+a);
 
-	  c = a + b;
+	c = a + b;
 
         a = b;
 
