@@ -20,10 +20,10 @@ public class ReverseNumber {
 
         	number = number / 10;
 
-      }
+        }
 
-      System.out.println("\nThe reverse of the number is: "+rev);
+        System.out.println("\nThe reverse of the number is: "+rev);
 
-    }
+   }
 
 }
