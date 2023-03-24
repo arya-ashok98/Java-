@@ -6,24 +6,24 @@ public class MutiplicationTable {
 
 	   int number, limit, result = 0, i;
 
-         Scanner sc = new Scanner(System.in);
+           Scanner sc = new Scanner(System.in);
 
-         System.out.println("\nEnter the number whose multiplication table needs to be printed: ");
+           System.out.println("\nEnter the number whose multiplication table needs to be printed: ");
 
-         number = sc.nextInt();
+           number = sc.nextInt();
 
-         System.out.println("\nEnter the limit: ");
+           System.out.println("\nEnter the limit: ");
 
 	   limit = sc.nextInt();
 
-         for(i = 1; i <= limit; i++) {
+           for(i = 1; i <= limit; i++) {
 
-            result = i * number;
+              result = i * number;
 
-            System.out.println("\nThe multiplication table for the digit "+number+" is: "+i+" * "+number+" = "+result);
+              System.out.println("\nThe multiplication table for the digit "+number+" is: "+i+" * "+number+" = "+result);
 
-         }
-	}
+           }
+     }
 }
 
           
