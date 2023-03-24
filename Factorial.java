@@ -15,11 +15,9 @@ public class Factorial {
          for(i = number; i >= 1; i--) {
      
 		fact = fact * i;
-
          }
 
-	   System.out.println("\nThe factorial of the number "+number+" is: "+fact);
+	 System.out.println("\nThe factorial of the number "+number+" is: "+fact);
 
 	} 
-
 }
