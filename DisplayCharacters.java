@@ -10,12 +10,10 @@ public class DisplayCharacters {
 
             for(i = 'A'; i <= 'Z'; i++) {
 
-			System.out.println(i);
+		  System.out.println(i);
 
             }
 		
 	}
 
 }
-
-          
