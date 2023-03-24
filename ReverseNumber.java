@@ -19,7 +19,6 @@ public class ReverseNumber {
         	rev = rev * 10 + m;
 
         	number = number / 10;
-
         }
 
         System.out.println("\nThe reverse of the number is: "+rev);
