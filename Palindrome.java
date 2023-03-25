@@ -2,40 +2,40 @@ import java.util.Scanner;
 
 public class Palindrome {
 
-   public static void main(String args[]) {
+   	public static void main(String args[]) {
 
-	int number, m, n, rev = 0;
+		int number, m, n, rev = 0;
 
-	Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-      System.out.println("\nEnter the number to be checked for palindrome: ");
+      		System.out.println("\nEnter the number to be checked for palindrome: ");
 
-      n = sc.nextInt();
+      		n = sc.nextInt();
 
-      number = n;
+      		number = n;
 
-      while(n > 0) {
+      		while(n > 0) {
 
-		m = n % 10;
+			m = n % 10;
 
-            rev = rev * 10 + m;
+            		rev = rev * 10 + m;
 
-            n = n / 10;
+            		n = n / 10;
 
-      }
+      		}
 
-      if (rev == number) {
+      		if (rev == number) {
 
-		System.out.println("\nThe given number "+number+" is palindrome.");
+			System.out.println("\nThe given number "+number+" is palindrome.");
 
-	}
+		}
 
-	else {
+		else {
 
-		System.out.println("\nThe given number "+number+" is not palindrome.");
+			System.out.println("\nThe given number "+number+" is not palindrome.");
 	
-	}
+		}
 
-   }
+   	}
 
 }
