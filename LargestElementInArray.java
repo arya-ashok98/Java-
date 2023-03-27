@@ -10,7 +10,7 @@ public class LargestElementInArray {
 
 		System.out.println("\nEnter the array limit: ");
 
-            limit = sc.nextInt();
+            	limit = sc.nextInt();
 
 		int[] array = new int[limit]; // array declaration
 
@@ -23,7 +23,7 @@ public class LargestElementInArray {
 		}
 
 
-            int largest = array[0]; // say suppose largest is the 1st element
+            	int largest = array[0]; // say suppose largest is the 1st element
 
 		for(int i = 1; i < limit; i++) {
 
