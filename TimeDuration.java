@@ -14,19 +14,19 @@ public class TimeDuration {
 
 		Scanner sc = new Scanner(System.in);
 
-            System.out.println("\nFor the start time ");
+            	System.out.println("\nFor the start time ");
 
-            System.out.println("\nEnter the hour: ");
+            	System.out.println("\nEnter the hour: ");
 
 		int timehr1 = sc.nextInt();
 	
 		System.out.println("\nEnter the minutes: ");
 
-            int timemin1 = sc.nextInt();
+           	int timemin1 = sc.nextInt();
 
 		System.out.println("\nEnter the seconds: ");
 
-	      int timesec1 = sc.nextInt();
+	      	int timesec1 = sc.nextInt();
 
 		System.out.println("\nFor the end time: ");
 
@@ -36,11 +36,11 @@ public class TimeDuration {
 	
 		System.out.println("\nEnter the minutes: ");
 
-            int timemin2 = sc.nextInt();
+            	int timemin2 = sc.nextInt();
 
 		System.out.println("\nEnter the seconds: ");
 
-	      int timesec2 = sc.nextInt();
+	      	int timesec2 = sc.nextInt();
 
 		LocalTime time1 = LocalTime.of(timehr1, timemin1, timesec1);  // Parsing Time Period in the format HH:MM:SS
 
