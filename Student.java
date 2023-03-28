@@ -16,7 +16,7 @@ public class Student {
 
 		Student stud = new Student("John", 2); //calling the user-defined constructor by passing arguments
 
-		System.out.println("\nThe name is "+name+" and the roll number is "+roll_no);
+		//System.out.println("\nThe name is "+name+" and the roll number is "+roll_no); //not required to print the results
 
 	}
 
