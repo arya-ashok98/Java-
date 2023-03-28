@@ -4,13 +4,13 @@ public class Triangle {
 
 	int side1 = 3, side2 = 4, side3 = 5, perimeter;
 
-      double area = 0.00, semiPer = 0.00;
+      	double area = 0.00, semiPer = 0.00;
 
-      public void calculatePerimeter() {
+      	public void calculatePerimeter() {
 
 		perimeter = side1 + side2 + side3;
 
-	      System.out.println("\nThe perimeter of the triangle is: "+perimeter+" units");
+	      	System.out.println("\nThe perimeter of the triangle is: "+perimeter+" units");
 
 	}
 
