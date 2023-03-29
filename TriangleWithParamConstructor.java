@@ -4,7 +4,7 @@ public class TriangleWithParamConstructor {
 
 	int side1, side2, side3;
 
-      static double area = 0, perimeter = 0, semiPer;
+      	static double area = 0, perimeter = 0, semiPer;
 
 	public TriangleWithParamConstructor(int side1, int side2, int side3) {
 
