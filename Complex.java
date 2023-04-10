@@ -43,31 +43,26 @@ public class Complex {
 		public static String sumComplx(int realPart1, int imgPart1, int realPart2, int imgPart2)
 
 			{
-
 				int realSum = (realPart1 + realPart2);
 
 				int imgSum = (imgPart1 + imgPart2);
 
 				return realSum+" + "+imgSum+"i";
-
 			}
 
 		public static String diffComplx(int realPart1, int imgPart1, int realPart2, int imgPart2)
 
 			{
-
 				int realDiff = (realPart1 - realPart2);
 
 				int imgDiff = (imgPart1 - imgPart2);
 
 				return realDiff+" + "+imgDiff+"i";
-
 			}
 
 		public static String prodComplx(int realPart1, int imgPart1, int realPart2, int imgPart2)
 
 			{
-				
 				int realProduct = (realPart1*realPart2) - (imgPart1*imgPart2);
 
 				int imgProduct = (realPart1*imgPart2) + (imgPart1*realPart2);
@@ -75,7 +70,6 @@ public class Complex {
 				//product = ((realPart1*realPart2) - (imgPart1*imgPart2)) + i((realPart1*imgPart2) + (imgPart1*realPart2));
 
 				return realProduct+" + "+imgProduct+"i";
-
 			}
 
 }
